@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <script src="customer.js"></script>
+</head>
+<body>
+    <h1>Customer</h1>
+    <form action="/customer" method="post">
+    <input type="text" name="customername" id="customername">
+    <input type="submit" value="Save" onclick="app.save()">
+    <hr>
+    <button onclick="app.create()">Create</button>
+    <button>Select</button>
+    <button onclick="app.update()" >Update</button>
+    <button onclick="app.delete()">Delete</button>
+    </form>
+</body>
+</html> 
